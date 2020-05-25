@@ -20,5 +20,3 @@ func main() {
 	}
 	fmt.Println(s)
 }
-
-//!-

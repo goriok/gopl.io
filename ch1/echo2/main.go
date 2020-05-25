@@ -19,6 +19,11 @@ func main() {
 		sep = " "
 	}
 	fmt.Println(s)
-}
 
+  //exercise 1.2:
+  fmt.Println("---")
+	for index, arg := range os.Args[1:] {
+    fmt.Println(index, arg)
+	}
+}
 //!-
